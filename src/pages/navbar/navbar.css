@@ -65,7 +65,7 @@
     }
 
     .hamburger-menu a {
-        color: black;
+        color: #fff;
 
     }
 
@@ -77,7 +77,6 @@
     #hidden ul {
         position: absolute;
         top: 83.75px;
-        background-color: rebeccapurple;
         left: 0;
         width: 100%;
         height: auto;

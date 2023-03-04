@@ -1,39 +1,40 @@
 import React, { useState } from "react";
 import "./navbar.css";
-const Navbar = () => {
-  const [active, setActive] = useState(false);
+import { GiHamburgerMenu } from "react-icons/gi";
 
+const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(true);
   return (
     <div className="navbar">
       <div className="logo">
-        <a href="/">AMAN</a>
+        <a href="#">AMAN</a>
       </div>
-      <div className="navigations">
+      <div className="navigations" id={showMenu ? "hidden" : ""}>
         <ul>
           <li>
-            <a href="#home" className="active">
-              Home
-            </a>
+            <a href="">HOME</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="">ABOUT</a>
           </li>
           <li>
-            <a href="#Resume">Resume</a>
+            <a href="">RESUME</a>
           </li>
           <li>
-            <a href="#Services">Services</a>
+            <a href="">PROJECTS</a>
           </li>
           <li>
-            <a href="#Skills">Skills</a>
+            <a href="">SKILLS</a>
           </li>
           <li>
-            <a href="#Projects">Projects</a>
-          </li>
-          <li>
-            <a href="#Contact">Contact</a>
+            <a href="">CONTACT</a>
           </li>
         </ul>
+      </div>
+      <div className="hamburger-menu">
+        <a href="#" onClick={() => setShowMenu(!showMenu)}>
+          <GiHamburgerMenu />
+        </a>
       </div>
     </div>
   );

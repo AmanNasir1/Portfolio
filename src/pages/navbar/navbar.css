@@ -1,9 +1,11 @@
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
     align-items: center;
-
+    padding: 2rem 0;
+    background-color: transparent;
+    position: fixed;
 }
 
 .navigations ul {
@@ -11,36 +13,91 @@
 }
 
 .navigations ul li {
-    list-style-type: none;
-    margin: 0 2rem;
+    font-size: 2rem;
+    padding: 0 2rem;
 }
 
 .navigations ul li a {
-    text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.2s;
 }
 
 .navigations ul li a:hover {
-    border-bottom: 3px solid rgb(196,145,44);
-}
-
-/* .navigations ul li a:focus{
-} */
-
-.active{
-    color: rgb(196,145,44);
-    
+    border-bottom: 1px solid rgb(255, 189, 57);
+    color: rgb(255, 189, 57);
 }
 
 
 .logo a {
-    font-size: 30px;
-    font-weight: 900;
-    text-decoration: none;
+    font-size: 2.7rem;
+    font-weight: 700;
     color: #fff;
-    /* padding: 0.7rem; */
+    cursor: pointer;
+}
 
+
+.hamburger-menu {
+    display: none;
+}
+
+#hidden {
+    display: flex;
+}
+
+
+@media screen and (max-width:990px) {
+    .navbar {
+        justify-content: space-between;
+        padding-left: 4rem;
+    }
+
+    .navigations {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 3.0rem;
+        margin-right: 4rem;
+        cursor: pointer;
+    }
+
+    .hamburger-menu a {
+        color: black;
+
+    }
+
+    .hamburger-menu a :hover {
+        transition-duration: 0.2s;
+        color: rgb(255, 189, 57);
+    }
+
+    #hidden ul {
+        position: absolute;
+        top: 83.75px;
+        background-color: rebeccapurple;
+        left: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+
+    #hidden ul li a {
+        color: #fff;
+        transition: all 0.2s;
+    }
+
+    #hidden ul li a:hover {
+        border-bottom: 1px solid rgb(255, 189, 57);
+        color: rgb(255, 189, 57);
+    }
+
+    #hidden ul li {
+        margin: 10px;
+    }
 }

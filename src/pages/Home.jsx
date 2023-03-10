@@ -1,23 +1,26 @@
 import React from "react";
+import Navigation from "../Components/Navigation";
+import Picture from "../Assets/test.png";
 import "./Home.css";
-import Pic from "../Assets/test.png";
 
 const Home = () => {
   return (
-    <div id="Home">
-      <div className="homeContent">
-        <p>HELLO!</p>
-        <h3>
-          I'm <span> Aman Nasir</span>
-        </h3>
-        <h4>A MERN Stack Developer</h4>
-        <div className="buttons">
-          <button>HIRE ME</button>
-          <button>MY WORKS</button>
-        </div>
-      </div>
+    <div className="container">
       <div className="image">
-        <img src={Pic} alt="" />
+        <img className="image-pic" src={Picture} />
+      </div>
+      <div className="desc">
+        <h1>- I'M Aman Nasir.</h1>
+        <h1>Web Developer</h1>
+        <p>
+          I'm a Frontend Developer focused on crafting   clean and
+          user-friendly <br />  experiences,I am passionate about building excellent
+         software that  <br />  improves  the lives of those around me.
+        </p>
+        <button>More About Me</button>
+      </div>
+      <div className="navigation">
+        <Navigation />
       </div>
     </div>
   );

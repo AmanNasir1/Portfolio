@@ -11,11 +11,11 @@ const Home = () => {
       </div>
       <div className="desc">
         <h1>- I'M Aman Nasir.</h1>
-        <h1>Web Developer</h1>
+          <span className="text">Frontend Developer </span>
         <p>
-          I'm a Frontend Developer focused on crafting   clean and
-          user-friendly <br />  experiences,I am passionate about building excellent
-         software that  <br />  improves  the lives of those around me.
+          I'm a Frontend Developer focused on crafting clean and user-friendly
+          <br /> experiences,I am passionate about building excellent software
+          that <br /> improves the lives of those around me.
         </p>
         <button>More About Me</button>
       </div>

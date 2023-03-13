@@ -1,6 +1,10 @@
 .navigation {
     display: flex;
     flex-direction: column;
+    position: fixed;
+    right: 30px;
+    top: 32%;
+    z-index: 2;
 }
 
 .navigation div {
@@ -28,13 +32,15 @@
         width: 100%;
         flex-direction: row;
         justify-content: space-around;
-        margin: 0;
-        padding: 0;
+        /* margin: 0; */
+        /* padding: 0; */
+        top: 93%;
+        background-color: #1A1919;
+        right: 0;
     }
 
     .navigation div {
         /* margin: 0 4rem; */
-        background-color: #1A1919;
         padding: 4px 0;
         margin: 0;
     }

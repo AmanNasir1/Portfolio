@@ -5,7 +5,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="image">
         <img className="image-pic" src={Picture} />
       </div>
@@ -19,9 +19,9 @@ const Home = () => {
         </p>
         <button>More About Me</button>
       </div>
-      <div className="navigation">
+      {/* <div className="navigation">
         <Navigation />
-      </div>
+      </div> */}
     </div>
   );
 };

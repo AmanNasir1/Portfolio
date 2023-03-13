@@ -1,0 +1,124 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+    padding-top: 3rem;
+}
+
+.about-header {
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.about-header h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.about-header h1 span {
+    color: #FFB912;
+
+}
+
+.about-header::before {
+    position: absolute;
+    content: "RESUME";
+    top: -30%;
+    font-size: 6rem;
+    left: 37%;
+    opacity: 0.08;
+    font-weight: bolder;
+    letter-spacing: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.personal-info {
+    color: #fff;
+    font-size: 18px;
+}
+
+.personal-info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info-content div {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal-info-content div h4 {
+    color: #BBBBBB;
+    margin: 0 2rem 0 0;
+    font-size: 16px;
+}
+
+.personal-info-content div:nth-child(1){
+    padding-right: 8.4rem;
+}
+.personal-info-content div:nth-child(2){
+    padding-right: 6.8rem;
+}
+
+
+.personal-info-content div h4 span {
+    color: #F3F3F3;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experience-box{
+    color: #fff;
+    border: 1px solid #252525;
+    margin: 0 1rem;
+    padding: 2rem 5rem;
+}
+
+.experience-box h1{
+    font-size: 3rem;
+    color: #FFB912;
+}
+
+.experience-box span{
+    text-align: justify;
+}
+
+.about-btn{
+    width: 230px;
+    height: 56px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 1px solid #FFB400;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    transition-duration: 0.2s;
+    background-color: #FFB400;
+
+}
+
+.skills{
+    margin-top: 4rem;
+}
+
+.skills h1{
+    text-align: center;
+    color: #fff;
+}

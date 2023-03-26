@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.css";
+import Circle from "react-circle";
+
 const About = () => {
   return (
     <div className="about" id="about">
@@ -8,6 +10,7 @@ const About = () => {
           ABOUT <span> ME </span>
         </h1>
       </div>
+
       <div className="info">
         <div className="personal-info">
           <h1>PERSONAL INFO</h1>
@@ -72,6 +75,163 @@ const About = () => {
       <hr style={{ margin: "1.2rem 30rem 0 30rem", opacity: "0.1" }} />
       <div className="skills">
         <h1>MY SKILLS</h1>
+        <div className="circle">
+          <div className="circle1">
+            <div>
+              <Circle
+                progress={98}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+              <span>HTML</span>
+            </div>
+            <div>
+              <Circle
+                progress={75}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+
+              <span>CSS</span>
+            </div>
+            <div>
+              <Circle
+                progress={70}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+
+              <span>javaScript</span>
+            </div>
+            <div>
+              <Circle
+                progress={65}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+
+              <span>React</span>
+            </div>
+          </div>
+          <div className="circle1">
+            <div>
+              <Circle
+                progress={55}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+
+              <span>Node</span>
+            </div>
+            <div>
+              <Circle
+                progress={50}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+
+              <span>MongoDB</span>
+            </div>
+            <div>
+              <Circle
+                progress={50}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+
+              <span>React Native</span>
+            </div>
+            <div>
+              <Circle
+                progress={85}
+                size={150}
+                progressColor="#FFB912"
+                bgColor="#252525"
+                textColor="#fff"
+                roundedStroke={true}
+                showPercentage={true}
+              />
+
+              <span>Firebase</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="education">
+        <h1
+          style={{
+            color: "#fff",
+            textTransform: "uppercase",
+            fontSize: "30px",
+            textAlign: "center",
+          }}
+        >
+          Experience & Educations
+        </h1>
+        <div className="education-content">
+          <div className="experience-info">
+            <div>
+              <span>2022-PRESENT</span>
+              <h3>Web Developer Intern - The Spark Foundation</h3>
+              <p>Been Selected for a rotational internship  </p>
+            </div>
+            <div>
+              <span>2022-PRESENT</span>
+              <h3>Web Developer Intern - The Spark Foundation</h3>
+              <p>Been Selected for a rotational internship  </p>
+            </div>
+            <div>
+              <span>2022-PRESENT</span>
+              <h3>Web Developer Intern - The Spark Foundation</h3>
+              <p>Been Selected for a rotational internship  </p>
+            </div>
+          </div>
+          <div className="education-info">
+          <div>
+              <span>2022-PRESENT</span>
+              <h3>Web Developer Intern - The Spark Foundation</h3>
+              <p>Been Selected for a rotational internship  </p>
+            </div>
+          <div>
+              <span>2022-PRESENT</span>
+              <h3>Web Developer Intern - The Spark Foundation</h3>
+              <p>Been Selected for a rotational internship  </p>
+            </div>
+          <div>
+              <span>2022-PRESENT</span>
+              <h3>Web Developer Intern - The Spark Foundation</h3>
+              <p>Been Selected for a rotational internship  </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

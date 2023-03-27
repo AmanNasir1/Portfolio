@@ -166,7 +166,8 @@
     color: #fff;
 }
 
-.experience-info div,.education-info div {
+.experience-info div,
+.education-info div {
     margin-top: 1rem;
     margin-bottom: 2rem;
     border-left: 4px solid #FFB400;
@@ -175,7 +176,8 @@
 
 
 
-.experience-info div span, .education-info div span{
+.experience-info div span,
+.education-info div span {
     background-color: #212121;
     font-size: 12px;
     letter-spacing: 1px;
@@ -184,7 +186,8 @@
     font-weight: bold;
 }
 
-.experience-info div h3, .education-info div h3{
+.experience-info div h3,
+.education-info div h3 {
     margin: 1rem 0;
 }
 
@@ -222,6 +225,11 @@
 
     .personal-info-content div:nth-child(2) {
         padding-right: 0;
+    }
+
+    .education-content {
+        flex-direction: column;
+        margin: 2rem;
     }
 
 }

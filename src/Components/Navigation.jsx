@@ -18,18 +18,20 @@ const Navigation = () => {
       </div>
       <div>
         <a href="#about">
-        <UserOutlined className="icon" />
-      </a>
+          <UserOutlined className="icon" />
+        </a>
       </div>
       <div>
-        <WechatFilled className="icon" />
+        <a href="#portfolio">
+          <ShoppingFilled className="icon" />
+        </a>
       </div>
       <div>
         <MailFilled className="icon" />
       </div>
-      <div>
-        <ShoppingFilled className="icon" />
-      </div>
+      {/* <div>
+        <WechatFilled className="icon" />
+      </div> */}
     </div>
   );
 };

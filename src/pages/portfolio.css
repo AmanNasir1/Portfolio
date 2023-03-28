@@ -3,7 +3,6 @@
     padding-top: 3rem;
 }
 .portfolio-header{
-    /* margin-top: 3rem; */
     position: relative;
 }
 .portfolio-header h1{
@@ -29,16 +28,14 @@
     letter-spacing: 20px;
 }
 
-.portfolio-content div{
-    width: 100px;
-    height: 100px;
-    border: 1px solid #fff;
-    margin: 1rem;
-    cursor: pointer;
+.portfolio-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+    align-items: center;
 }
 
-.portfolio-content div:hover{
-    background-color: yellow;
-    content: "teesfds";
-    color: #fff;
+.portfolio-content div{
+    margin: 1rem ;
 }

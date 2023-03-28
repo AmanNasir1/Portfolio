@@ -18,22 +18,52 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-content">
         <div>
-          <Card src={project1} name="ChatGPT Landing Page using React" />
+          <Card
+            src={project1}
+            name="ChatGPT Landing Page using React"
+            code="https://github.com/AmanNasir1/GPT-3-landing-page"
+            link="https://chatgpt3webapp.netlify.app/"
+          />
         </div>
         <div>
-          <Card src={project2} name="TodoApp Using React" />
+          <Card
+            src={project2}
+            name="TodoApp Using React"
+            code="https://github.com/AmanNasir1/React-TodoApp"
+            link="https://todoappusingreact.netlify.app/"
+          />
         </div>
         <div>
-          <Card src={project3} name="Attendance Management System using Vanilla Js" />
+          <Card
+            src={project3}
+            name="Attendance Management System using Vanilla Js"
+            code="https://github.com/AmanNasir1/Attendance-Management-System"
+            link="https://attendancesystem12.netlify.app/"
+          />
         </div>
         <div>
-          <Card src={project4} name="ChatApp Using Vanilla js" />
+          <Card
+            src={project4}
+            name="ChatApp Using Vanilla js"
+            code="https://github.com/AmanNasir1/ChatApp"
+            link="https://amannasir1.github.io/ChatApp/"
+          />
         </div>
         <div>
-          <Card src={project5} name="Blog Posting App using Vanilla js" />
+          <Card
+            src={project5}
+            name="Blog Posting App using Vanilla js"
+            code="https://github.com/AmanNasir1/PostingApp"
+            link="https://blogpostingapp.netlify.app/"
+          />
         </div>
         <div>
-          <Card src={project7} name="Quizz App using Vanilla js" />
+          <Card
+            src={project7}
+            name="Quizz App using Vanilla js"
+            code="https://github.com/AmanNasir1/Quiz-App"
+            link="https://amannasir1.github.io/Quiz-App/"
+          />
         </div>
       </div>
     </div>

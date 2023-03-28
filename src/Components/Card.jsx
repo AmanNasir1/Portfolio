@@ -10,11 +10,10 @@ function Cards(props) {
       <Card.Body>
         <Card.Title className="cardTitle">{props.name}</Card.Title>
         <div className="card-btn">
-          <a href="#">
-            <img src={Code} />{" "}
+          <a href={props.code} target="_blank">
+            <img src={Code} />
           </a>
-          <a href="#">
-            {" "}
+          <a href={props.link} target="_blank">
             <img src={Link} />
           </a>
         </div>

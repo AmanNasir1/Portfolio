@@ -1,0 +1,32 @@
+.contact {
+    background-color: #111111;
+    margin-top: 4rem;
+}
+
+.contact-header h1 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-header h1 span {
+    color: #FFB912;
+}
+
+.contact-header{
+    position: relative;
+    text-align: center;
+}
+
+.contact-header::before{
+    content: "CONTACT";
+    font-size: 90px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    opacity: 0.1;
+    top: -23px;
+    left: 37%;
+    letter-spacing: 7px;
+
+}
